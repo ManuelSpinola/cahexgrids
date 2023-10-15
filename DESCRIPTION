@@ -1,13 +1,14 @@
 Package: cahexgrids
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Hierarchical geospatial hexagonal grid indexing system for Central America
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Manuel Spínola
+Maintainer: mspinola10@gmail.com
+Description: The package is based in H3, a geospatial indexing system that partitions the world into hexagonal cells
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 URL: https://github.com/ManuelSpinola/cahexgrids
 BugReports: https://github.com/ManuelSpinola/cahexgrids/issues
+Depends: 
+    R (>= 2.10)
