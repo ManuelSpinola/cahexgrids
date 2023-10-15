@@ -3,6 +3,10 @@
 library(sf)
 library(here)
 
+ca_hex_grid_res_4 <- st_read(here("data-raw/ca_hexagonal_grids/ca_hex_res_4.gpkg"))
+
+usethis::use_data(ca_hex_grid_res_4, overwrite = TRUE)
+
 ca_hex_grid_res_5 <- st_read(here("data-raw/ca_hexagonal_grids/ca_hex_res_5.gpkg"))
 
 usethis::use_data(ca_hex_grid_res_5, overwrite = TRUE)

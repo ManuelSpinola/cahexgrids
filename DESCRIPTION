@@ -3,12 +3,13 @@ Type: Package
 Title: Hierarchical geospatial hexagonal grid indexing system for Central America
 Version: 0.1.0
 Author: Manuel Spínola
-Maintainer: mspinola10@gmail.com
+Maintainer: Manuel Spínola <mspinola10@gmail.com>
 Description: The package is based in H3, a geospatial indexing system that partitions the world into hexagonal cells
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-URL: https://github.com/ManuelSpinola/cahexgrids
+URL: https://github.com/ManuelSpinola/cahexgrids, https://manuelspinola.github.io/cahexgrids/
 BugReports: https://github.com/ManuelSpinola/cahexgrids/issues
 Depends: 
     R (>= 2.10)
+RoxygenNote: 7.2.3
