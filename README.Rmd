@@ -44,7 +44,7 @@ library(cahexgrids)
 
 
 ```{r}
-#| fig-cap: "Figura 1. Hexagonal grid of resolution 4 for Central America."
+#| fig-cap: "Figure 1. Hexagonal grid of resolution 4 for Central America."
 ggplot(ca_hex_grid_res_4) +
   geom_sf(fill = "dodgerblue3", color = "gray") +
   theme_minimal()
@@ -53,7 +53,7 @@ ggplot(ca_hex_grid_res_4) +
 <br>
 
 ```{r}
-#| fig-cap: "Figura 2. Hexagonal grid of resolution 5 for Central America."
+#| fig-cap: "Figure 2. Hexagonal grid of resolution 5 for Central America."
 ggplot(ca_hex_grid_res_5) +
   geom_sf(fill = "dodgerblue3", color = "gray") +
   theme_minimal()
@@ -62,7 +62,7 @@ ggplot(ca_hex_grid_res_5) +
 <br>
 
 ```{r}
-#| fig-cap: "Figura 3. Hexagonal grid of resolution 6 for Central America."
+#| fig-cap: "Figure 3. Hexagonal grid of resolution 6 for Central America."
 ggplot(ca_hex_grid_res_6) +
   geom_sf(fill = "dodgerblue3", color = "gray") +
   theme_minimal()
@@ -73,7 +73,7 @@ ggplot(ca_hex_grid_res_6) +
 
 ```{r}
 #| echo: false
-#| fig-cap: "Figura 4. Hierarchical hexagonal grids of resolution 5, 6, 7, 8. Every hexagonal cell has seven child cells below it in this hierarchy.  "
+#| fig-cap: "Figure 4. Hierarchical hexagonal grids of resolution 5, 6, 7, 8. Every hexagonal cell has seven child cells below it in this hierarchy.  "
 ggplot() +
   theme_minimal() +
   geom_sf(data = ca_hex_grid_res_4, fill = NA, color = "red", linewidth = 0.8, alpha = 0.2) +

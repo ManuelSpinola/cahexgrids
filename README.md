@@ -42,9 +42,9 @@ ggplot(ca_hex_grid_res_4) +
 
 <div class="figure">
 
-<img src="man/figures/README-unnamed-chunk-3-1.png" alt="Figura 1. Hexagonal grid of resolution 4 for Central America." width="100%" />
+<img src="man/figures/README-unnamed-chunk-3-1.png" alt="Figure 1. Hexagonal grid of resolution 4 for Central America." width="100%" />
 <p class="caption">
-Figura 1. Hexagonal grid of resolution 4 for Central America.
+Figure 1. Hexagonal grid of resolution 4 for Central America.
 </p>
 
 </div>
@@ -59,9 +59,9 @@ ggplot(ca_hex_grid_res_5) +
 
 <div class="figure">
 
-<img src="man/figures/README-unnamed-chunk-4-1.png" alt="Figura 2. Hexagonal grid of resolution 5 for Central America." width="100%" />
+<img src="man/figures/README-unnamed-chunk-4-1.png" alt="Figure 2. Hexagonal grid of resolution 5 for Central America." width="100%" />
 <p class="caption">
-Figura 2. Hexagonal grid of resolution 5 for Central America.
+Figure 2. Hexagonal grid of resolution 5 for Central America.
 </p>
 
 </div>
@@ -76,9 +76,9 @@ ggplot(ca_hex_grid_res_6) +
 
 <div class="figure">
 
-<img src="man/figures/README-unnamed-chunk-5-1.png" alt="Figura 3. Hexagonal grid of resolution 6 for Central America." width="100%" />
+<img src="man/figures/README-unnamed-chunk-5-1.png" alt="Figure 3. Hexagonal grid of resolution 6 for Central America." width="100%" />
 <p class="caption">
-Figura 3. Hexagonal grid of resolution 6 for Central America.
+Figure 3. Hexagonal grid of resolution 6 for Central America.
 </p>
 
 </div>
@@ -87,9 +87,9 @@ Figura 3. Hexagonal grid of resolution 6 for Central America.
 
 <div class="figure">
 
-<img src="man/figures/README-unnamed-chunk-6-1.png" alt="Figura 4. Hierarchical hexagonal grids of resolution 5, 6, 7, 8. Every hexagonal cell has seven child cells below it in this hierarchy.  " width="100%" />
+<img src="man/figures/README-unnamed-chunk-6-1.png" alt="Figure 4. Hierarchical hexagonal grids of resolution 5, 6, 7, 8. Every hexagonal cell has seven child cells below it in this hierarchy.  " width="100%" />
 <p class="caption">
-Figura 4. Hierarchical hexagonal grids of resolution 5, 6, 7, 8. Every
+Figure 4. Hierarchical hexagonal grids of resolution 5, 6, 7, 8. Every
 hexagonal cell has seven child cells below it in this hierarchy.
 </p>
 
