@@ -8,7 +8,11 @@ cahexgrids: hierarchical hexagonal geospatial grids for Central America
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of cahexgrids is to …
+The goal of cahexgrids is to provides a hierarchical geospatial
+hexagonal grid indexing system for Central America
+
+Hexagonal grid resolution are 4, 5, 6, 7 y 8 (based in
+[H3](https://h3geo.org)
 
 ## Installation
 
@@ -22,33 +26,71 @@ devtools::install_github("ManuelSpinola/cahexgrids")
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+This is a basic example which shows you how to use cahexgrids:
 
 ``` r
+library(tidyverse)
+library(sf)
 library(cahexgrids)
-## basic example code
 ```
-
-What is special about using `README.Rmd` instead of just `README.md`?
-You can include R chunks like so:
 
 ``` r
-summary(cars)
-#>      speed           dist       
-#>  Min.   : 4.0   Min.   :  2.00  
-#>  1st Qu.:12.0   1st Qu.: 26.00  
-#>  Median :15.0   Median : 36.00  
-#>  Mean   :15.4   Mean   : 42.98  
-#>  3rd Qu.:19.0   3rd Qu.: 56.00  
-#>  Max.   :25.0   Max.   :120.00
+ggplot(ca_hex_grid_res_4) +
+  geom_sf(fill = "dodgerblue3", color = "gray") +
+  theme_minimal()
 ```
 
-You’ll still need to render `README.Rmd` regularly, to keep `README.md`
-up-to-date. `devtools::build_readme()` is handy for this.
+<div class="figure">
 
-You can also embed plots, for example:
+<img src="man/figures/README-unnamed-chunk-3-1.png" alt="Figura 1. Hexagonal grid of resolution 4 for Central America." width="100%" />
+<p class="caption">
+Figura 1. Hexagonal grid of resolution 4 for Central America.
+</p>
 
-<img src="man/figures/README-pressure-1.png" width="100%" />
+</div>
 
-In that case, don’t forget to commit and push the resulting figure
-files, so they display on GitHub and CRAN.
+<br>
+
+``` r
+ggplot(ca_hex_grid_res_5) +
+  geom_sf(fill = "dodgerblue3", color = "gray") +
+  theme_minimal()
+```
+
+<div class="figure">
+
+<img src="man/figures/README-unnamed-chunk-4-1.png" alt="Figura 2. Hexagonal grid of resolution 5 for Central America." width="100%" />
+<p class="caption">
+Figura 2. Hexagonal grid of resolution 5 for Central America.
+</p>
+
+</div>
+
+<br>
+
+``` r
+ggplot(ca_hex_grid_res_6) +
+  geom_sf(fill = "dodgerblue3", color = "gray") +
+  theme_minimal()
+```
+
+<div class="figure">
+
+<img src="man/figures/README-unnamed-chunk-5-1.png" alt="Figura 3. Hexagonal grid of resolution 6 for Central America." width="100%" />
+<p class="caption">
+Figura 3. Hexagonal grid of resolution 6 for Central America.
+</p>
+
+</div>
+
+<br>
+
+<div class="figure">
+
+<img src="man/figures/README-unnamed-chunk-6-1.png" alt="Figura 4. Hierarchical hexagonal grids of resolution 5, 6, 7, 8. Every hexagonal cell has seven child cells below it in this hierarchy.  " width="100%" />
+<p class="caption">
+Figura 4. Hierarchical hexagonal grids of resolution 5, 6, 7, 8. Every
+hexagonal cell has seven child cells below it in this hierarchy.
+</p>
+
+</div>
